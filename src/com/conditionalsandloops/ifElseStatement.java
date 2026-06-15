@@ -1,9 +1,4 @@
 package com.conditionalsandloops;
-
-import com.datatypes.SumOfTwoNumbers;
-
-import java.sql.SQLOutput;
-
 /*
 
 syntax of if-else statements:
