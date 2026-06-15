@@ -1,4 +1,4 @@
-package com.utsab;
+package com.datatypes;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.utsab;
+package com.datatypes;
 
 //manual conversion of data-types performed by the user
 //larger fata-types --> smaller data-types

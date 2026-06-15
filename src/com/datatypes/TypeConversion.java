@@ -1,4 +1,4 @@
-package com.utsab;
+package com.datatypes;
 
 //automatic conversion done by the java-compiler itself
 //small data-type --> large data-type

@@ -1,4 +1,4 @@
-package com.utsab;
+package com.datatypes;
 
 //i) all the byte, short, char are promoted to integer.
 //ii) in case of operation, the result will be promoted to larger data-type.

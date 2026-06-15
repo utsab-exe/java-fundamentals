@@ -1,4 +1,4 @@
-package com.utsab;
+package com.datatypes;
 
 public class AutomaticTypePromotion {
     public static void main(String[] args) {
