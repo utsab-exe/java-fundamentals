@@ -21,5 +21,15 @@ public class ifElseStatement {
             salary += 1000;
         }
         System.out.println(salary);
+
+        // multiple if-else statements:
+        if(salary > 10000) {
+            salary += 2000;
+        } else if(salary > 20000) { //if the first condition is false, then this is checked.
+            salary += 3000;
+        } else{
+            salary += 1000;
+        }
     }
 }
+
