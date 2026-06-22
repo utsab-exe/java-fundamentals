@@ -46,5 +46,6 @@ public class swap {
         int temp = a;
         a = b;
         b = temp;
+        //This change will only be valid in this function scope only.
     }
 }
