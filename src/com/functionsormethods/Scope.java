@@ -14,7 +14,10 @@ public class Scope {
             // this reassign the origin reference to some other value.
             int c = 29;
             //value initialized inside a block, remains inside the block.
+            System.out.println(c);
         }
+        int c = 11; //this is legal as per the rules of scoping.
+        System.out.println(c);
 
         System.out.println(a); //prints 78;
 

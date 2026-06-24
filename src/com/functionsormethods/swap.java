@@ -20,7 +20,7 @@ public class swap {
     }
 
     static void changeName(String name) { // Strings are immutable, hence no change occurs
-        name = "Basnata Subedi";
+        name = "Basanta Subedi";
     }
 
 
