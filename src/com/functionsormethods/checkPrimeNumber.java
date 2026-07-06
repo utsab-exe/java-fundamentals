@@ -2,20 +2,22 @@ package com.functionsormethods;
 
 import java.util.Scanner;
 
-public class checkPrimeNumber {
+class checkPrimeNumber {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        System.out.println(isPrime(n));
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        System.out.print(is_prime(n));
+
     }
 
-    static Boolean isPrime(int n) {
+    static boolean is_prime(int n) {
         int c = 2;
-
-        if(n <= 1){
+        if(n <= 1) {
             return false;
         }
-        while(c < n) {
+
+        while(c*c <= n) {
             if(n % c == 0) {
                 return false;
             }
