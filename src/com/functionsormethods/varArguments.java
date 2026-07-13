@@ -2,7 +2,6 @@ package com.functionsormethods;
 
 import java.util.Arrays;
 
-
 //Variable length Arguments
 public class varArguments {
     public static void main(String[] args) {

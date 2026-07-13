@@ -1,6 +1,6 @@
 package com.arrays;
 
-public class introToArrays {
+public class IntroToArrays {
     public static void main(String[] args) {
         //Q: Store a role number:
         int a = 19;
@@ -26,7 +26,10 @@ public class introToArrays {
 
         //Array is a collection of value of similar data-types.
 
-        int[] ros; //declaration of array. ros is getting defined in the stack.
-        ros = new int[5]; // initialization: actually here object is being created in the memory(heap)
+        int[] ros; //declaration of array. ros is getting defined in the stack. //this is compile time.
+        ros = new int[5]; // initialization: actually here object is being created in the memory(heap) //this is run time.
+
+        //NEW keyword:
+            //new keyword is just used to create an object.
     }
 }
