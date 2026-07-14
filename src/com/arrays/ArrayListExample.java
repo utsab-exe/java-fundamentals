@@ -38,6 +38,5 @@ public class ArrayListExample {
             System.out.println(list.get(i)); //list[index] wont work here. we need to use get method.
         }
 
-
     }
 }
